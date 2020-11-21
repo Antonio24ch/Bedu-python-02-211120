@@ -1,16 +1,20 @@
 #Archivo explicando listas
 
-numero = [23,89,127,1289,8912]
+numeros = [23,89,127,1289,8912]
 
 #Para agregar un elemento a una lista ocupamos append
 numero_extra = 33
 numero_extra1 = 1223
 numero_extra2 = 89
 
-numero.append(numero_extra)
+numeros.append(numero_extra)
 
-print(numero)
+print(numeros)
 
-numero.pop()
+numeros.pop() #Elimina
 
-print(numero)
+print(numeros)
+
+numeros.extend([numero_extra1,numero_extra2])
+
+print(numeros)
