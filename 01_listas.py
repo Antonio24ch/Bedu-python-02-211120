@@ -11,10 +11,10 @@ numeros.append(numero_extra)
 
 print(numeros)
 
-numeros.pop() #Elimina
+numeros.pop() #Elimina 
 
 print(numeros)
 
-numeros.extend([numero_extra1,numero_extra2])
+numeros.extend([numero_extra1,numero_extra2]) #Agrega los dos números extra que declaramos
 
 print(numeros)
