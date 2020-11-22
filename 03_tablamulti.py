@@ -16,5 +16,7 @@ for n in range(10):
 # 8 * 1 = 8
 # 8 * 2 = 16
 # ...
-
+for n in range(10):
+    r = numero * (n+1)
+    print(f'{numero} * {n+1} = {r}')
  
